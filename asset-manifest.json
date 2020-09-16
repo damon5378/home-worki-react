@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//damon5378.github.io/home-worki-react/static/css/main.3c57baf6.chunk.css",
-    "main.js": "//damon5378.github.io/home-worki-react/static/js/main.3618f1c6.chunk.js",
-    "main.js.map": "//damon5378.github.io/home-worki-react/static/js/main.3618f1c6.chunk.js.map",
-    "runtime-main.js": "//damon5378.github.io/home-worki-react/static/js/runtime-main.2303951c.js",
-    "runtime-main.js.map": "//damon5378.github.io/home-worki-react/static/js/runtime-main.2303951c.js.map",
-    "static/js/2.2cd1b0e2.chunk.js": "//damon5378.github.io/home-worki-react/static/js/2.2cd1b0e2.chunk.js",
-    "static/js/2.2cd1b0e2.chunk.js.map": "//damon5378.github.io/home-worki-react/static/js/2.2cd1b0e2.chunk.js.map",
-    "index.html": "//damon5378.github.io/home-worki-react/index.html",
-    "precache-manifest.db6a908a60904c742170d93655c8e7d1.js": "//damon5378.github.io/home-worki-react/precache-manifest.db6a908a60904c742170d93655c8e7d1.js",
-    "service-worker.js": "//damon5378.github.io/home-worki-react/service-worker.js",
-    "static/css/main.3c57baf6.chunk.css.map": "//damon5378.github.io/home-worki-react/static/css/main.3c57baf6.chunk.css.map",
-    "static/js/2.2cd1b0e2.chunk.js.LICENSE.txt": "//damon5378.github.io/home-worki-react/static/js/2.2cd1b0e2.chunk.js.LICENSE.txt"
+    "main.css": "/home-worki-react/static/css/main.3c57baf6.chunk.css",
+    "main.js": "/home-worki-react/static/js/main.5f18b09c.chunk.js",
+    "main.js.map": "/home-worki-react/static/js/main.5f18b09c.chunk.js.map",
+    "runtime-main.js": "/home-worki-react/static/js/runtime-main.ad112ac0.js",
+    "runtime-main.js.map": "/home-worki-react/static/js/runtime-main.ad112ac0.js.map",
+    "static/js/2.2cd1b0e2.chunk.js": "/home-worki-react/static/js/2.2cd1b0e2.chunk.js",
+    "static/js/2.2cd1b0e2.chunk.js.map": "/home-worki-react/static/js/2.2cd1b0e2.chunk.js.map",
+    "index.html": "/home-worki-react/index.html",
+    "precache-manifest.74fce19d76fe7d7bee14b77f276f066d.js": "/home-worki-react/precache-manifest.74fce19d76fe7d7bee14b77f276f066d.js",
+    "service-worker.js": "/home-worki-react/service-worker.js",
+    "static/css/main.3c57baf6.chunk.css.map": "/home-worki-react/static/css/main.3c57baf6.chunk.css.map",
+    "static/js/2.2cd1b0e2.chunk.js.LICENSE.txt": "/home-worki-react/static/js/2.2cd1b0e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2303951c.js",
+    "static/js/runtime-main.ad112ac0.js",
     "static/js/2.2cd1b0e2.chunk.js",
     "static/css/main.3c57baf6.chunk.css",
-    "static/js/main.3618f1c6.chunk.js"
+    "static/js/main.5f18b09c.chunk.js"
   ]
 }
