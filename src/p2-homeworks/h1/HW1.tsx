@@ -1,7 +1,6 @@
 import React from "react";
 // import { PropsTypesMessage } from "../../p1-main/m1-ui/u1-app/App";
 import Message from "./Message";
-import avatar from './img/avatar.jpg'
 
 
 export type MessageDataType = {

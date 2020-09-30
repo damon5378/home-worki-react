@@ -1,0 +1,29 @@
+.affair_name{
+    margin-top: 13px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.btn_delete{
+    margin-left: 15px;
+    padding: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    background-color: rgb(238, 5, 5);
+    color: white;
+}
+
+.affair_wrapper{
+    margin-top: 7px;
+}
+
+.affair_id{
+    margin-left: 15px;
+}
+
+.sd{
+    position: relative;
+}

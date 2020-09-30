@@ -1,3 +1,35 @@
-.someClass {
+.btn_wrapper{
+    margin-top: 25px;
+    margin-left: 10px;
+}
 
+.btn_priority{
+    margin-left: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn_priority:hover{
+    cursor: pointer;
+}
+
+.btn_all{
+    background-color: rgb(236, 15, 181);
+}
+
+.btn_high{
+    background-color: rgb(238, 5, 5);
+}
+
+.btn_middle{
+    background-color: rgb(10, 152, 218);
+}
+
+.btn_low{
+    background-color: rgb(25, 233, 6);
 }

@@ -7,7 +7,7 @@ function Message(props: MessageDataType ) {
     return (
         <div>
             <div>
-                <img src={props.avatar} className={s.avatar}/>
+                <img src={props.avatar} alt="avatar" className={s.avatar}/>
             </div>
         
             <div className={s.wrapper}>
