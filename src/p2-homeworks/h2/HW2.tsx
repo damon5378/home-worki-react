@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Affairs from "./Affairs";
+import s from './Affair.module.css'
 
 // types
 export type AffairPriorityType = "high" | "low" | "middle"; 
@@ -62,7 +63,8 @@ function HW2() {
   return (
     <div>
       <hr />
-      homeworks 2{/*should work (должно работать)*/}
+      <span className={s.hw2}>homeworks 2</span>
+      {/*should work (должно работать)*/}
       <Affairs
         data={filteredAffairs}
         setFilter={setFilter}

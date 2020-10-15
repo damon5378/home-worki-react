@@ -1,9 +1,11 @@
-import React, {useState} from "react";
+import React, { ChangeEvent, useState} from "react";
 import Greeting from "./Greeting";
+import { UserType } from "./HW3";
+import { Modal } from "./Modal";
 
 type GreetingContainerPropsType = {
-    users: any // need to fix any
-    addUserCallback: any // need to fix any
+    users: Array<UserType> // need to fix any
+    addUserCallback: (name: string) => void// need to fix any
 }
 
 // более простой и понятный для новичков
@@ -12,26 +14,55 @@ type GreetingContainerPropsType = {
 // более современный и удобный для про :)
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
-    const [name, setName] = useState<any>(""); // need to fix any
-    const [error, setError] = useState<any>(""); // need to fix any
 
-    const setNameCallback = (e: any) => { // need to fix any
-        setName(""); // need to fix
+    const [name, setName] = useState<string>(""); // need to fix any
+    const [error, setError] = useState<string | null>(""); // need to fix any
+    const [isOpen, setIsOpen] = useState<boolean>(false);
+    const [modal, setModal] = useState("");
+
+    const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
+        setError(null);
+        setName(e.currentTarget.value); // need to fix
     };
+
     const addUser = () => {
-        alert(`Hello  !`); // need to fix
+        if(name.trim() !== "") {
+            // alert(`Hello,  ${name}!`);
+            setModal(`Hello, ${name}!`);
+            setName("")
+            addUserCallback(name);
+        } else {
+            setError("⚠ Field should be fill ⚠")
+        } 
+        if(!isOpen) {
+            setIsOpen(true)
+        }
     };
 
-    const totalUsers = 0; // need to fix
+    const onCancel = () => {
+        setIsOpen(false);
+    }
+
+    const totalUsers = users.length; // need to fix
 
     return (
+        <>
         <Greeting
             name={name}
             setNameCallback={setNameCallback}
             addUser={addUser}
             error={error}
             totalUsers={totalUsers}
+            // count={count}
         />
+        
+        <Modal 
+            modal={modal}
+            name={name}
+            setNameCallback={setNameCallback}
+            isOpen={isOpen}
+            onCancel={onCancel}/>
+        </>
     );
 }
 

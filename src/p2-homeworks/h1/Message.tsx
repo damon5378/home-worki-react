@@ -5,7 +5,7 @@ import s from './Message.module.css';
 
 function Message(props: MessageDataType ) {
     return (
-        <div>
+        <div className={s.message__general}>
             <div>
                 <img src={props.avatar} alt="avatar" className={s.avatar}/>
             </div>

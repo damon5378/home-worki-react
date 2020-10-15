@@ -3,5 +3,65 @@
 }
 
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
 }
+
+.greetings__error{
+    color: red;
+    margin-left: 15px;
+    margin-top: 11px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hw3{
+    color: aqua;
+    margin-left: 15px;
+}
+
+.add__greetings{
+    margin-left: 5px;
+    padding: 10px 10px 12px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(17, 172, 219);
+    transition: all .3s linear;
+}
+
+.add__greetings:hover{
+    cursor: pointer;
+    background-color: rgb(51, 95, 240);
+}
+
+.greetings__counter{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.addInputClass{
+    width: 200px;
+    padding: 9px;
+    border-radius: 7px;
+    outline: none;
+    background: rgb(0, 255, 34);
+    font-size: 20px;
+    color: #fff;
+}
+
+.input__wrapper{
+    margin-left: 15px;
+    width: 50%;
+    height: 50px;
+    position: relative;
+    margin-top: 25px;
+}
+
+
+
+

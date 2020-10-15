@@ -9,7 +9,7 @@
 .wrapper:after{
     content: ''; 
     position: absolute; 
-    left: 60px; 
+    left: 75px; 
     top: 134px;
     border: 10px solid transparent; 
     border-radius: 7px;
@@ -38,4 +38,13 @@
 .time{
     margin-left: 260px;
     color: rgb(199, 169, 169);
+}
+
+.hw1{
+    color: aqua;
+    margin-left: 10px;
+}
+
+.message__general{
+    margin-left: 15px;
 }

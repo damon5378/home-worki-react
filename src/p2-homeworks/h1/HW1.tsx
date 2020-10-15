@@ -1,6 +1,7 @@
 import React from "react";
 // import { PropsTypesMessage } from "../../p1-main/m1-ui/u1-app/App";
 import Message from "./Message";
+import s from './Message.module.css'
 
 
 export type MessageDataType = {
@@ -22,7 +23,7 @@ function HW1() {
     return (
         <div>
             <hr/>
-            homeworks 1
+            <span className={s.hw1}>homeworks 1</span>
 
             {/*should work (должно работать)*/}
 

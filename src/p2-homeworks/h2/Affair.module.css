@@ -18,6 +18,8 @@
 
 .affair_wrapper{
     margin-top: 7px;
+    color: aqua;
+    margin-left: 10px;
 }
 
 .affair_id{
@@ -26,4 +28,9 @@
 
 .sd{
     position: relative;
+}
+
+.hw2{
+    color: aqua;
+    margin-left: 10px;
 }
