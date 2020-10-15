@@ -17,8 +17,9 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
     const [name, setName] = useState<string>(""); // need to fix any
     const [error, setError] = useState<string | null>(""); // need to fix any
+
     const [isOpen, setIsOpen] = useState<boolean>(false);
-    const [modal, setModal] = useState("");
+    const [modal, setModal] = useState<string>("");
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
         setError(null);
@@ -26,6 +27,9 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     };
 
     const addUser = () => {
+        if(!isOpen) {
+            setIsOpen(true)
+        }
         if(name.trim() !== "") {
             // alert(`Hello,  ${name}!`);
             setModal(`Hello, ${name}!`);
@@ -33,10 +37,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             addUserCallback(name);
         } else {
             setError("⚠ Field should be fill ⚠")
-        } 
-        if(!isOpen) {
-            setIsOpen(true)
-        }
+        }   
     };
 
     const onCancel = () => {

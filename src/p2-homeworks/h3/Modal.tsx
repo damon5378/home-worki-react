@@ -13,13 +13,10 @@ export type ModalType ={
 
 export const Modal = ({modal, isOpen, onCancel}: ModalType) => {
 
-
-    let displayNone = 'displayNone';
-
     return (
         <>
-        {isOpen ?
-            <div className="modal__wrapper"> 
+        {isOpen &&
+            <div className="modal__wrapper animate__animated animate__zoomInDown"> 
                 <h1 className="modal__title">{modal}</h1> 
                 <img 
                     src={close} 
@@ -27,8 +24,6 @@ export const Modal = ({modal, isOpen, onCancel}: ModalType) => {
                     className="modal__close"
                     onClick={onCancel}/> 
             </div>
-            :
-            <div className={displayNone}></div>
 }
     </>
     )
