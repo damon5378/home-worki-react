@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89fe6a1ba11fab1a37d755ef8d9dba4d",
+    "revision": "ffb10656a7df55731c8fcbd469ebb1d2",
     "url": "/home-worki-react/index.html"
   },
   {
-    "revision": "2fba9b8e370b29ce2d90",
-    "url": "/home-worki-react/static/css/main.982996ed.chunk.css"
+    "revision": "7291fa6cd7062d10b117",
+    "url": "/home-worki-react/static/css/main.641b1361.chunk.css"
   },
   {
-    "revision": "92e6a0c71e060ebf01e1",
-    "url": "/home-worki-react/static/js/2.9509d90e.chunk.js"
+    "revision": "2d4c24977a7466bdfb44",
+    "url": "/home-worki-react/static/js/2.b44e7557.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/home-worki-react/static/js/2.9509d90e.chunk.js.LICENSE.txt"
+    "url": "/home-worki-react/static/js/2.b44e7557.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fba9b8e370b29ce2d90",
-    "url": "/home-worki-react/static/js/main.a2433e3e.chunk.js"
+    "revision": "7291fa6cd7062d10b117",
+    "url": "/home-worki-react/static/js/main.d31d4bbf.chunk.js"
   },
   {
     "revision": "a49a9db7b681ff3a3f01",
