@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/home-worki-react/static/css/main.641b1361.chunk.css",
-    "main.js": "/home-worki-react/static/js/main.d31d4bbf.chunk.js",
-    "main.js.map": "/home-worki-react/static/js/main.d31d4bbf.chunk.js.map",
+    "main.css": "/home-worki-react/static/css/main.5f1d7618.chunk.css",
+    "main.js": "/home-worki-react/static/js/main.73dda7fb.chunk.js",
+    "main.js.map": "/home-worki-react/static/js/main.73dda7fb.chunk.js.map",
     "runtime-main.js": "/home-worki-react/static/js/runtime-main.ad112ac0.js",
     "runtime-main.js.map": "/home-worki-react/static/js/runtime-main.ad112ac0.js.map",
-    "static/js/2.b44e7557.chunk.js": "/home-worki-react/static/js/2.b44e7557.chunk.js",
-    "static/js/2.b44e7557.chunk.js.map": "/home-worki-react/static/js/2.b44e7557.chunk.js.map",
+    "static/js/2.efe4c656.chunk.js": "/home-worki-react/static/js/2.efe4c656.chunk.js",
+    "static/js/2.efe4c656.chunk.js.map": "/home-worki-react/static/js/2.efe4c656.chunk.js.map",
     "index.html": "/home-worki-react/index.html",
-    "precache-manifest.84cc96afe4c96fcc94f1332e1ed17fa7.js": "/home-worki-react/precache-manifest.84cc96afe4c96fcc94f1332e1ed17fa7.js",
+    "precache-manifest.bad8449c24b577aca107433c0cb0061d.js": "/home-worki-react/precache-manifest.bad8449c24b577aca107433c0cb0061d.js",
     "service-worker.js": "/home-worki-react/service-worker.js",
-    "static/css/main.641b1361.chunk.css.map": "/home-worki-react/static/css/main.641b1361.chunk.css.map",
-    "static/js/2.b44e7557.chunk.js.LICENSE.txt": "/home-worki-react/static/js/2.b44e7557.chunk.js.LICENSE.txt",
+    "static/css/main.5f1d7618.chunk.css.map": "/home-worki-react/static/css/main.5f1d7618.chunk.css.map",
+    "static/js/2.efe4c656.chunk.js.LICENSE.txt": "/home-worki-react/static/js/2.efe4c656.chunk.js.LICENSE.txt",
     "static/media/App.module.css": "/home-worki-react/static/media/back.0c4376bb.jpg",
-    "static/media/close.svg": "/home-worki-react/static/media/close.6fc74fc7.svg"
+    "static/media/close.svg": "/home-worki-react/static/media/close.6fc74fc7.svg",
+    "static/media/Error404.module.css": "/home-worki-react/static/media/p404.9db9d742.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ad112ac0.js",
-    "static/js/2.b44e7557.chunk.js",
-    "static/css/main.641b1361.chunk.css",
-    "static/js/main.d31d4bbf.chunk.js"
+    "static/js/2.efe4c656.chunk.js",
+    "static/css/main.5f1d7618.chunk.css",
+    "static/js/main.73dda7fb.chunk.js"
   ]
 }
