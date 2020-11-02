@@ -21,7 +21,7 @@ const messageData:MessageDataType = {
 
 function HW1() {
     return (
-        <div>
+        <div className={s.hw1__wrapper}>
             <hr/>
             <span className={s.hw1}>homeworks 1</span>
 

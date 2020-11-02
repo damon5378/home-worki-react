@@ -1,0 +1,53 @@
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('p404.png') #151729;
+}
+
+.container .content{
+    max-width: 850px;
+    text-align: center;
+}
+
+.container .content h2{
+    font-size: 18vw;
+    color: #fff;
+    line-height: 1em;
+}
+
+.container .content h4{
+    display: inline-block;
+    position: relative;
+    font-size: 5em;
+    color: #111;
+    background: #fff;
+    font-weight: 300;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.container .content span{
+    font-size: 3em;
+    color: #fff;
+    display: block;
+}
+
+.btn__back{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #ff0562;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    margin-top: 25px;
+    border-radius: 25px;
+    border-bottom: 4px solid #d00d56;
+}

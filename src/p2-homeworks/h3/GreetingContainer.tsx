@@ -36,6 +36,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             setName("")
             addUserCallback(name);
         } else {
+            setIsOpen(false)
             setError("⚠ Field should be fill ⚠")
         }   
     };
